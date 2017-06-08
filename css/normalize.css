@@ -18,6 +18,9 @@ html {
 
 body {
   margin: 0;
+  width: 607px;
+  height: 500px;
+  overflow: auto;
 }
 
 /* HTML5 display definitions
