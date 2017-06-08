@@ -27,4 +27,10 @@ $(document).ready(function () {
     $.each(parms, function(index, value) {
         $('.content').append("<p>" + index  + " = " + value + "</p>");
     });
+    VK.init(function() {
+        VK.callMethod("showSettingsBox", 8214);
+    }, function() {
+        // API initialization failed
+        // Can reload page here
+    }, '5.65');
 });
