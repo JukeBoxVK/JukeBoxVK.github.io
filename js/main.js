@@ -28,7 +28,7 @@ $(document).ready(function () {
         $('.content').append("<p>" + index  + " = " + value + "</p>");
     });
     VK.init(function() {
-        VK.callMethod("showSettingsBox", 8214);
+        VK.callMethod("showSettingsBox", 0);
     }, function() {
         // API initialization failed
         // Can reload page here
