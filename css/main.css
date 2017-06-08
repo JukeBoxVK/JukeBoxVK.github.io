@@ -280,3 +280,11 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+.content {
+    margin: 0;
+    width: 607px;
+    height: 500px;
+    overflow: scroll;
+}
