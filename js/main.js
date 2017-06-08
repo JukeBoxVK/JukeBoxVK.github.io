@@ -24,4 +24,7 @@ $(document).ready(function () {
     }
     console.log(parms);
 
+    $.each(parms, function(index, value) {
+        $('body').append("<pre>" + index  + " = " + value + "</pre>");
+    });
 });
